@@ -1,0 +1,10 @@
+1) If Spotify determines the audio aura by looking at the avg energy, valence, and danceability of a person’s top 100 songs,
+    then this particular user (in general) listens to songs that have catchy tunes and danceable music
+    (average danceability and energy are on the higher end), but the valence of the songs is pretty much averge (~0.48),
+    meaning neither euphoric nor depressive moods expressed by the music.
+
+2) Probably expanding the criteria list would help, like adding loudness of the songs and their speechiness into the equation.
+    I would consider speechiness particularly important, because preferring lyrical songs like rap songs over
+    purely instrumental ones like orchestral music (or vice versa) can also help infer a lot about the characteristics of the user.
+    Another addition would be the number of times the user has listened to the same song over a certain period of time, indicating
+    either a wide variety of emotions radiated by the song, or a specific type of mood the user has been in during the set period.

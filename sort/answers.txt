@@ -1,0 +1,17 @@
+sort1 uses: Bubble sort
+
+How do you know?: Sort1 uses Bubble sort because, when it comes to randomly sorted numbers,
+                  it has faster runtime than Sort3 (Selection sort). During the Reversed scenario,
+                  Sort1 runs slower than Sort3, since (n-1)(n-1) is slower than (n(n+1)/2) as n gets larger.
+                  While for the Sorted scenario, Sort1 is actually faster than Sort3, since (n-1) is faster than (n(n+1)/2).
+
+sort2 uses: Merge sort
+
+How do you know?: Overall, Sort2 has the fastest time of execution among the three sorting programs.
+                  Best-case scenarios (Sorted) for both Sort1 and Sort2 have almost equal runtimes, since
+                  the best-case scenario for Merge sort is (nlog(n)), which is slightly less than Bubble sort (n).
+
+sort3 uses: Selection sort
+
+How do you know?: For Sort3, best and worst-case scenarios (Sorted and Reversed) have almost equal runtimes,
+                  which is the case with Selection sort (around Theta(n^2)), since it does not benefit from the change.

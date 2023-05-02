@@ -1,0 +1,2 @@
+tabulate (pip install tabulate) - Pretty-print tabular data in Python, a library and a command-line utility.
+numpy (pip install numpy) - NumPy is the fundamental package for scientific computing in Python.
